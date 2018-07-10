@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffff">
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:src="@drawable/ic_ha_ha_exprssion_smiley_512x512"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:elevation="6dp"
+            android:background="@drawable/images"/>
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="ASTITVA GUPTA"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:background="@drawable/rounded_corner"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="To feature your wallpapers in the app, reach astitvagupta123@gmail.com"
+            android:layout_marginTop="22dp"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_corner"/>
+
+        <TextView
+            android:id="@+id/text_view_logout"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:drawableLeft="@drawable/ic_icons8_exit_50"
+            android:text="@string/logout"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:background="@drawable/rounded_button"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
