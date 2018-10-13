@@ -1,7 +1,10 @@
 package com.example.android.wallpaperworld.fragments;
 
 import android.content.Intent;
+<<<<<<< HEAD
 import android.net.Uri;
+=======
+>>>>>>> f03574b653ff620a6b6504157962ea2ed6ad46fc
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -9,7 +12,10 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Button;
+=======
+>>>>>>> f03574b653ff620a6b6504157962ea2ed6ad46fc
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -57,7 +63,10 @@ public class SettingsFragment extends Fragment {
 
             ImageView imageView = view.findViewById(R.id.image_view);
             TextView textViewName = view.findViewById(R.id.text_view_name);
+<<<<<<< HEAD
             Button btn = view.findViewById(R.id.idbtn);
+=======
+>>>>>>> f03574b653ff620a6b6504157962ea2ed6ad46fc
 
             FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
 
@@ -67,6 +76,7 @@ public class SettingsFragment extends Fragment {
 
             textViewName.setText(user.getDisplayName());
 
+<<<<<<< HEAD
             btn.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -82,6 +92,8 @@ public class SettingsFragment extends Fragment {
                 }
             });
 
+=======
+>>>>>>> f03574b653ff620a6b6504157962ea2ed6ad46fc
             view.findViewById(R.id.text_view_logout).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {

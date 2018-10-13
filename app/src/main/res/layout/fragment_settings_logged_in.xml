@@ -28,6 +28,7 @@
             android:textSize="26sp"
             android:background="@drawable/rounded_corner"/>
 
+<<<<<<< HEAD
         <Button
             android:id="@+id/idbtn"
             android:layout_width="200dp"
@@ -38,6 +39,15 @@
             android:textAlignment="center"
             android:shadowColor="@android:color/black"
             android:background="@drawable/rounded_button"/>
+=======
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="To feature your wallpapers in the app, reach astitvagupta123@gmail.com"
+            android:layout_marginTop="22dp"
+            android:textAlignment="center"
+            android:background="@drawable/rounded_corner"/>
+>>>>>>> f03574b653ff620a6b6504157962ea2ed6ad46fc
 
         <TextView
             android:id="@+id/text_view_logout"
