@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WALLPAPER WORLD</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_settings">Settings</string>
+    <string name="string_not_signed_in">OOPS! You need to sign in</string>
+    <string name="logout">logout</string>
+</resources>

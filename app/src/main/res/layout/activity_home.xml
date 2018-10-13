@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextColor="@color/colorTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:elevation="4dp">
+            <ImageView android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/finelest"/>
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:fontFamily="serif"
+                android:text="@string/app_name"
+                android:textSize="20sp"
+                android:textColor="#0336ff"/>
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:elevation="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:itemIconTint="@color/bottom_nav_item"
+        app:itemTextColor="@color/bottom_nav_item"
+        android:background="@color/colorWhite"
+        app:menu="@menu/nav_menu" />
+
+</android.support.design.widget.CoordinatorLayout>
